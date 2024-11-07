@@ -10,7 +10,7 @@ countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript");
  */
 
   const countWordOccurrences = (str: string, wordToCount: string) => {
-    const matchesArr = str.match(RegExp(wordToCount, "gi"));
+    const matchesArr: string[] | null = str.match(RegExp(wordToCount, "gi"));
     console.log(matchesArr?.length ?? 0);
   };
   countWordOccurrences("TypeScript is great. I love TypeScript!", "typescript");

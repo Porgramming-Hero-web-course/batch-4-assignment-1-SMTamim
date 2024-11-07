@@ -19,9 +19,9 @@
   //   };
 
   const validateKeys = (obj: object, propsToCheck: string[]): boolean => {
-    const numberOfKeysInObject = Object.keys(obj);
+    const numberOfKeysInObject: string[] = Object.keys(obj);
 
-    const foundProps = propsToCheck.filter((prop) => {
+    const foundProps: string[] = propsToCheck.filter((prop) => {
       return numberOfKeysInObject.includes(prop);
     });
 

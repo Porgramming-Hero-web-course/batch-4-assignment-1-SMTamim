@@ -10,7 +10,7 @@
      */
 
   const removeDuplicates = (numberArray: number[]) => {
-    const uniqueNumbersSet = new Set(numberArray);
+    const uniqueNumbersSet : Set<number> = new Set(numberArray);
     const uniqueNumbers: number[] = Array.from(uniqueNumbersSet);
     console.log(uniqueNumbers);
   };

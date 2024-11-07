@@ -29,6 +29,6 @@
     }
   }
 
-  const car = new Car("Honda", "Civic", 2025);
+  const car: Car = new Car("Honda", "Civic", 2025);
   car.getCarAge();
 }
