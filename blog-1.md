@@ -7,7 +7,7 @@
 1. It helps to write readable codes.
 2. By using `union` types we can send different types of variable as one to a function parameter and then use `type guard` as perform different operations on them
    e.g.
-   ```
+   ```typescript
    function processStrOrNumber(param: string | number) {
        if (typeof param === "string") {
            console.log(param.toUpperCase());
@@ -25,7 +25,7 @@
 2. By using `intersection` types we can make complex type
    e.g.
 
-   ```
+   ```typescript
     type Person = {
         name: string;
         address: string;

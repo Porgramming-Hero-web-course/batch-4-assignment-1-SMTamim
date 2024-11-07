@@ -4,7 +4,7 @@ We use `async` and `await` in combination when we are expecting some response af
 
 `async`, `await` helps us write much cleaner code.
 
-```
+```typescript
 function fetchData() {
     return new Promise((resolve, reject) => {
       const data: boolean = true;
